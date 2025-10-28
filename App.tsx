@@ -164,8 +164,7 @@ export default function App() {
         </View>
         {isPasswordGenerated ? (
           <View style={[styles.card, styles.cardElevated]}>
-            <Text style={styles.subTitle}>Result:</Text>
-            <Text style={styles.description}>Long Press to copy</Text>
+            <Text style={styles.subTitle}>Password:</Text>
             <Text selectable={true} style={styles.generatedPassword}>{password}</Text>
             {password !== '' ? (
               <View style={{ flexDirection: 'row' }}>
