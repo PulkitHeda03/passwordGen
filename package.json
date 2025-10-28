@@ -10,10 +10,14 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-clipboard/clipboard": "^1.16.3",
+    "@react-native/new-app-screen": "0.82.1",
+    "formik": "^2.4.6",
     "react": "19.1.1",
     "react-native": "0.82.1",
-    "@react-native/new-app-screen": "0.82.1",
-    "react-native-safe-area-context": "^5.5.2"
+    "react-native-bouncy-checkbox": "^2.1.0",
+    "react-native-safe-area-context": "^5.5.2",
+    "yup": "^1.7.1"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
